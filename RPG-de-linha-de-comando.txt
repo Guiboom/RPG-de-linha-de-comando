@@ -1,4 +1,10 @@
 RPG de linha de comando
+
+
+
+
+
+
 Aberto: 24/06/2025
 Vencimento: 24/06/2025
 Desenvolva um RPG de linha de comando utilizando a linguagem Portugol. O jogo deve ser totalmente interativo por texto, sem interface gráfica.
