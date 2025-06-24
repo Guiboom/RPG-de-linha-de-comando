@@ -1,0 +1,27 @@
+RPG de linha de comando
+Aberto: 24/06/2025
+Vencimento: 24/06/2025
+Desenvolva um RPG de linha de comando utilizando a linguagem Portugol. O jogo deve ser totalmente interativo por texto, sem interface gráfica.
+
+Requisitos Técnicos
+Tipos de Variáveis: O jogo deve utilizar pelo menos 3 tipos de variáveis diferentes do Portugol (por exemplo: inteiro, real, cadeia, logico).
+Desvios Condicionais: Implemente pelo menos 5 desvios condicionais ao longo do código. Cada uso de se, senão se e senão conta como um desvio. Por exemplo, um bloco se...senão se...senão conta como três desvios.
+Estrutura do Jogo:
+O jogo deve ter uma narrativa básica (por exemplo, um herói em busca de um tesouro, um desafio a ser superado, etc.).
+Permita que o jogador tome decisões que afetem o rumo da história.
+Inclua um sistema simples de combate ou resolução de desafios que envolva escolhas do jogador e resultados baseados nessas escolhas.
+Apresente ao jogador informações sobre seu personagem (nome, vida, itens, etc.) e sobre o ambiente.
+O jogo deve ter um final claro, seja de vitória ou derrota.
+Apresentação do Projeto
+Ao finalizar o desenvolvimento do jogo, a equipe deverá apresentar para a turma como o jogo funciona. Essa apresentação deve incluir:
+
+Uma breve introdução à história e ao objetivo do jogo.
+Uma demonstração prática de pelo menos uma parte da jogabilidade.
+Uma explicação de como os desvios condicionais e os diferentes tipos de variáveis foram utilizados para construir a lógica do jogo.
+Sugestões de Implementação
+Criação de Personagem: Permita que o jogador insira o nome de seu personagem no início.
+Inventário Simples: O personagem pode coletar itens (por exemplo, uma chave, uma poção) que afetam suas escolhas ou habilidades.
+Eventos Aleatórios (Opcional): Você pode usar um gerador de números aleatórios (Biblioteca Util no Portugol) para adicionar um elemento de imprevisibilidade a certos eventos.
+Este desafio visa testar a capacidade da equipe de estruturar um programa complexo usando conceitos fundamentais de lógica de programação em um ambiente restrito, além de desenvolver a habilidade de comunicação e explicação do projeto.
+
+Boa sorte!
