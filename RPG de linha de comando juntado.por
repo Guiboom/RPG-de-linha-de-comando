@@ -96,10 +96,5 @@ programa {
       escreva("Você chegou até em casa!\n")
 
     escreva("Parabéns ",nome," você completou o capítulo 2 do ROTA 0!!")
-
-
-
-
-     
   }  
 }
