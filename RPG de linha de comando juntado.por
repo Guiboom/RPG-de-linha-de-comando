@@ -6,7 +6,11 @@ programa {
     escreva("Capitulo 1\n")
     escreva("Bem vindo ao ROTA 0\nPara começar digite seu nome:")
     leia(nome)
+<<<<<<< HEAD
     escreva("Bem vindo ",nome," Hoje você deseja viajar para praia ou para o parque?:")
+=======
+    escreva("Bem vindo ",nome,", primeiro vamos nos preparar, Hoje voce deseja viajar para praia ou para o parque?:")
+>>>>>>> e8aa7cab45d882dd3b44c51fa7b3b414f0425e7f
     leia(destino)
     se(destino == "praia"){
       escreva("Então vamos para praia.\n")
@@ -39,6 +43,7 @@ programa {
     }
     
   
+<<<<<<< HEAD
     escreva("O que você quer fazer? Deseja ir pela estrada de terra onde gastará mais conbústivel e é mais curta ou pela estrada asfaltada\nque irá economizar mais combustivél e será mais longa? ")
     leia(estrada)
     //Os 2 primeiros problemas
@@ -48,6 +53,17 @@ programa {
     
     senao se(estrada=="asfalto" ou estrada=="estrada asfaltada" ou estrada=="de asfalto" ou estrada=="asfaltada"){
     escreva("Você dirigiu pela estrada de asfalto. Durante a viagem você encontrou um acidente! Você quer parar e ajudar ou passar pelo acidente? \n")
+=======
+    escreva("O que você quer fazer? Deseja ir pela estrada de terra onde gastará mais conbústivel e é mais curta ou pela estrada \nasfaltada que irá economizar mais combustivél e será mais longa? ")
+    leia(estrada)
+    //Os 2 primeiros problemas
+    se(estrada=="terra" ou estrada=="estrada de terra" ou estrada=="de terra"){
+    escreva("Você dirigiu pela estrada de terra. Durante a viagem o seu carro atolou! Você quer chamar o guincho ou comprar uma \nroleta da sorte por R$80 com 50% de chace de avançar para o próximo checkpoint e 50% de chance de perder?\n")
+    leia(desicao)}
+    
+    senao se(estrada=="asfalto" ou estrada=="estrada asfaltada" ou estrada=="de asfalto" ou estrada=="asfaltada"){
+    escreva("Você dirigiu pela estrada de asfalto. Durante a viagem você encontrou um acidente! Você quer parar e ajudar ou passar \npelo acidente? \n")
+>>>>>>> e8aa7cab45d882dd3b44c51fa7b3b414f0425e7f
     leia(desicao)}
     
     senao{
@@ -64,7 +80,11 @@ programa {
 
     //Os 2 segundos problemas
     
+<<<<<<< HEAD
     escreva("Você chegou em um posto de combustível. Quer abastecer ou continuar a viagem? ")
+=======
+    escreva("Você chegou em um posto de conbustivel. Quer abastecer ou continuar a viagem? ")
+>>>>>>> e8aa7cab45d882dd3b44c51fa7b3b414f0425e7f
     leia(desicao2)
     se(desicao2=="abastecer"){
       escreva("Você encheu o tanque, gastou R$230.\n")
@@ -81,7 +101,11 @@ programa {
     escreva("Com o tanque cheio você chegou até uma ponte de madeira. Você quer ir por um barranco ou pela ponte? ")
     leia(desicao)
     se(desicao=="barranco"){
+<<<<<<< HEAD
       escreva("Você conseguiu subir no barranco, mas, Você encontrou um cobrador e perdeu R$70.\n")
+=======
+      escreva("Você conseguiu subir no barranco, mas, Você encontrou um cobradore perdeu R$70.\n")
+>>>>>>> e8aa7cab45d882dd3b44c51fa7b3b414f0425e7f
       gasto=70
       }
       senao se(desicao=="pela ponte" ou desicao=="ponte"){
@@ -90,6 +114,7 @@ programa {
       escreva("Escolha um opção  valida!")
     }
      dinheiroT2=dinheiroT-gasto
+<<<<<<< HEAD
 
 
       escreva("Você tem R$",dinheiroT2,"\n")
@@ -97,9 +122,13 @@ programa {
 
     escreva("Parabéns ",nome," você completou o capítulo 2 do ROTA 0!!")
 
+=======
+>>>>>>> e8aa7cab45d882dd3b44c51fa7b3b414f0425e7f
 
 
+      escreva("Você tem R$",dinheiroT,"\n")
+      escreva("Você chegou até em casa!\n")
 
-     
+    escreva("Parabéns ",nome," você completou o capítulo 2 do ROTA 0!!")
   }  
 }
