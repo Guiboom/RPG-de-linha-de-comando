@@ -20,7 +20,7 @@ programa {
       escreva("\nQue bom, você verificou, estava faltando!\n")
     }senao se(verificarOleo == "n")
     escreva("\nok")
-    escreva("\nVocê tem 500 reais, quanto você deseja levar?:")
+    escreva("\nVocê tem 500 reais, quanto você deseja levar na viajem?:")
     leia(dinheiro)
     se(dinheiro >= 0 e dinheiro <= 500){
       escreva("\nOk.\n")
@@ -39,7 +39,7 @@ programa {
     }
     
   
-    escreva("\nO que você quer fazer? Deseja ir pela estrada de terra onde gastará mais conbústivel e é mais curta ou pela estrada asfaltada\nque irá economizar mais combustivél e será mais longa? ")
+    escreva("\nO que você quer fazer? Deseja ir pela estrada de (terra) onde gastará mais combustível e é mais curta ou pela estrada (asfaltada)\nque irá economizar mais combustível e será mais longa? ")
     leia(estrada)
     //Os 2 primeiros problemas
     se(estrada=="terra" ou estrada=="estrada de terra" ou estrada=="de terra"){
@@ -67,11 +67,18 @@ programa {
     escreva("\nVocê chegou em um posto de combustível. Quer abastecer ou continuar a viagem? ")
     leia(desicao2)
     se(desicao2=="abastecer"){
+      se (dinheiroT >= 230){
       escreva("\nVocê encheu o tanque, gastou R$230.\n")
       gasto=230
+          dinheiroT=dinheiro-gasto
+      }senao se (dinheiroT <= 229){
+      escreva("\nVocê continuou a viagem e ficou sem combustivel por falta de dinheiro!")
+      escreva("\nVOCÊ PERDEU!") retorne 
+      }
+
     }senao se(desicao2=="continuar" ou desicao2=="continuar viagem" ou desicao2=="viagem"){
-      escreva("\nVocê continuou a viagem e ficou sem conbustivel!")
-      escreva("\nVOCÊ PERDEU!")
+      escreva("\nVocê continuou a viagem e ficou sem combustivel!")
+      escreva("\nVOCÊ PERDEU!") retorne
     }senao{
       ("Escolha uma opçaõ valida!")
     }
@@ -95,7 +102,7 @@ programa {
       escreva("\nVocê tem R$",dinheiroT2,"\n")
       escreva("\nVocê chegou até em casa!\n")
 
-    escreva("\nParabéns ",nome," você completou o capítulo 2 do ROTA 0!!")
+    escreva("\nParabéns ",nome," você chegou na ",destino,", e completou o capítulo 2 do ROTA 0!!")
 
 
 
